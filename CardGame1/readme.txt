@@ -19,7 +19,7 @@ Main contains tests.
 ---------
 Version 3
 ---------
-Playable (terminal) multiplayer VriÃ¥tter.
+Playable (terminal) multiplayer Vriåtter.
 	- Main function: turn. Takes game setup and computes the move: play a legal card, pick from the deck or pass the turn.
 Main contains the game.
 
@@ -38,9 +38,10 @@ Learning potentials:
 	  more in mind in future projects.
 	- Partially following from the former remark: Learn about (sorting-) algorithms i.e. computer science for cleaner and faster 
 	  code that, also importantly, uses less memory.
+	- *Inheritance*
 	
 Project development:
-	- VriÃ¥tter can be given an interface/platform/app form (with C#?).
+	- Vriåtter can be given an interface/platform/app form (with C#?).
 		- The code must be adapted with the interface to allow player number selection, hiding your cards from the opponent,
 		  setting up various parameters in a pause menu, etc.
 	- New method: shuffle_hand(), sort_hand()
@@ -52,5 +53,5 @@ Project development:
 	  a card if it can and just playing the first available legal card in the hand.
 		- Would have to make sensible use of 8s, e.g. "if no card != 8 can be played or if all cards in the hand but 1 is an 
 		  8, vri to the suit dominating the hand".
-
+	- Interface with machine learning agent / reinforcement learning project?
 
