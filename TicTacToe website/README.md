@@ -1,0 +1,1 @@
+This is a beginner project to explore end-to-end development: set up a secure webserver/host (www.aroyaspesial.com), create a multiplayer game (here using socket.IO), and a framework to add graphics, build a full website, code a completely new game and add more backend functionality such as machine learning bots
