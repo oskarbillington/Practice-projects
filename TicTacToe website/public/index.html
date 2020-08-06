@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AROYA SPESIAL</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
+  </head>
+  <body>
+
+    <div id="Aroya-chat">
+      <div id="chat-window">
+        <div id="output"></div>
+        <div id="feedback"></div>
+      </div>
+      <input type="text" id="handle" placeholder="Handle" />
+      <input type="text" id="message" placeholder="Message" />
+      <button id="send">Send</button>
+    </div>
+
+
+    <table id="tic-tac-toe" style = "border:1px solid black;margin-left:auto;margin-right:auto;">
+    	<tbody>
+    		<tr>
+    			<td>
+    				<button id="00" data-row="0" data-column="0">top left field</button>
+    			</td>
+    			<td>
+    				<button id="01" data-row="0" data-column="1">top left field</button>
+    			</td>
+    			<td>
+    				<button id="02" data-row="0" data-column="2">top left field</button>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td>
+    				<button id="10" data-row="1" data-column="0">top left field</button>
+    			</td>
+    			<td>
+    				<button id="11" data-row="1" data-column="1">top left field</button>
+    			</td>
+    			<td>
+    				<button id="12" data-row="1" data-column="2">top left field</button>
+    			</td>
+    		</tr>
+    		<tr>
+    			<td>
+    				<button id="20" data-row="2" data-column="0">top left field</button>
+    			</td>
+    			<td>
+    				<button id="21" data-row="2" data-column="1">top left field</button>
+    			</td>
+    			<td>
+    				<button id="22" data-row="2" data-column="2">top left field</button>
+    			</td>
+    		</tr>
+    	</tbody>
+    </table>
+
+    <script src="/chat.js"></script>
+  </body>
+</html>
